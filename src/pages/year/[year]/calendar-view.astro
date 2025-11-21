@@ -19,7 +19,7 @@ if (Number(year) > maxYear || Number(year) < minYear) {
     {
       Array.from(Array(12)).map((_, index) => (
         <Calendar
-          className="rounded-md border shadow bg-red-50 max-w-[250px] mx-auto"
+          className="rounded-md border shadow-sm bg-red-50 max-w-[250px] mx-auto"
           disableNavigation
           month={setMonth(setYear(new Date(), Number(year)), index)}
         />
