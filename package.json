@@ -10,7 +10,11 @@
     "onlyBuiltDependencies": [
       "sharp",
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "path-to-regexp": "^6.3.0",
+      "yaml": "^2.8.3"
+    }
   },
   "scripts": {
     "dev": "astro dev",
