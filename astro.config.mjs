@@ -14,7 +14,9 @@ export default defineConfig({
   },
   output: "server",
   adapter: vercel({
-    isr: true,
+    isr: {
+      expiration: 43200,
+    },
     maxDuration: 60,
   }),
 });
