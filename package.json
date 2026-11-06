@@ -26,14 +26,14 @@
     "format": "pnpm prettier -w src"
   },
   "dependencies": {
-    "@astrojs/react": "^6.0.6",
-    "@astrojs/vercel": "^11.0.17",
+    "@astrojs/react": "^7.1.4",
+    "@astrojs/vercel": "^11.0.20",
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-slot": "^1.5.0",
-    "@tailwindcss/vite": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "astro": "^7.4.4",
+    "astro": "^7.4.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.4.0",
@@ -43,13 +43,13 @@
     "react-day-picker": "^10.0.2",
     "react-dom": "^19.3.1",
     "tailwind-merge": "^3.7.0",
-    "tailwindcss": "^4.3.3",
+    "tailwindcss": "^4.3.5",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.27",
     "prettier": "^3.9.10",
-    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-astro": "^1.1.2",
     "typescript": "^7.0.2"
   }
 }
